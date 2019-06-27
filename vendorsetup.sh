@@ -1,0 +1,2 @@
+add_lunch_combo syberia_violet-userdebug
+export SKIP_ABI_CHECKS=true
