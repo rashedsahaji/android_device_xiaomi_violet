@@ -521,16 +521,19 @@ vendor/lib64/libcppf.so|ad9f651c12218454ead5c4c7a44d7b8e887731ec
 vendor/lib64/libhdcpsrm.so|d4f8219b15bb15d3e5837f6d7bdc92cf3c11f8cf
 vendor/lib64/liboemcrypto.so|5b77983a5c9163258006a6ed0f2c83d993e029a4
 
-# Fingerprint firmware
-etc/firmware/goodixfp.b00
-etc/firmware/goodixfp.b01
-etc/firmware/goodixfp.b02
-etc/firmware/goodixfp.b03
-etc/firmware/goodixfp.b04
-etc/firmware/goodixfp.b05
-etc/firmware/goodixfp.b06
-etc/firmware/goodixfp.b07
-etc/firmware/goodixfp.mdt
+# Display postprocessing
+lib64/vendor.display.color@1.0.so
+
+# ESE-Powermanager - from Redmi K20 davinci-user 9 PKQ1.190302.001 V10.3.6.0.PFJCNXM release-keys
+vendor/bin/hw/vendor.qti.esepowermanager@1.0-service|bbadc53672501ea25029b7902bd3b38c712263ba
+vendor/etc/init/vendor.qti.esepowermanager@1.0-service.rc|58a3866ad5a7613d9392c9adb671eaa7825578a2
+lib/vendor.qti.esepowermanager@1.0.so|8fd21b9c28cf126fee0d4f229aeefedcfbe77cc4
+lib64/vendor.qti.esepowermanager@1.0.so|8d2ae6c2e1e2e8bc804f1bc7e2647dfa7157c7fc
+vendor/lib/hw/vendor.qti.esepowermanager@1.0-impl.so|9d583ec1483527321bef90eed4af55219b35513a
+vendor/lib/vendor.qti.esepowermanager@1.0.so|374d232eac92146853afa3af085890306dcf10da
+vendor/lib64/hw/vendor.qti.esepowermanager@1.0-impl.so|07174e9a690e52486eaaae13615a050f145a46fc
+vendor/lib64/vendor.qti.esepowermanager@1.0.so|dd37770694dae62295b9f891e349dd1e48af9fdd
+>>>>>>> b5d640f... violet: Drop goodix fp
 
 # Fingerprint sensor
 -vendor/app/FingerprintExtensionService/FingerprintExtensionService.apk
