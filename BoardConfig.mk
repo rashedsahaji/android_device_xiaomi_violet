@@ -47,6 +47,7 @@ ifeq ($(TARGET_PREBUILT_KERNEL),)
   TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-linux-android-
   TARGET_KERNEL_SOURCE := kernel/xiaomi/sm6150
   TARGET_KERNEL_CONFIG := vendor/violet-perf_defconfig
+  TARGET_KERNEL_CLANG_VERSION := 6.0.2
 endif
 
 # Platform
