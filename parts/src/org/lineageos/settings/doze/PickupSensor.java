@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package org.mokee.settings.doze;
+package org.lineageos.settings.doze;
 
 import android.content.Context;
 import android.hardware.Sensor;
@@ -62,8 +62,6 @@ public class PickupSensor implements SensorEventListener {
         if (delta < MIN_PULSE_INTERVAL_MS) {
             return;
         }
-
-        mEntryTimestamp = SystemClock.elapsedRealtime();
 
         if (event.values[0] == 1) {
             DozeUtils.launchDozePulse(mContext);
